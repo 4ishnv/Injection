@@ -20,3 +20,7 @@ injection-wheat.vercel.app
 ## Notes
 
 - Lyrics are fetched from LRCLIB, so that part needs an internet connection.
+
+<img width="1535" height="724" alt="image" src="https://github.com/user-attachments/assets/d7196949-a709-4aa5-ab5b-957b67129e3e" />
+<img width="1535" height="725" alt="image" src="https://github.com/user-attachments/assets/f6d85cba-f8b6-44e7-92ac-e5f46881697c" />
+
