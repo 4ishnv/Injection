@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Injection</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="orb"></canvas>
+<header><b>Injection</b><span id="title">No song loaded</span></header>
+<div id="stage"><div id="lyrics"><div id="track"></div></div></div>
+
+<footer>
+  <div class="seek"><span id="cur">0:00</span><input id="seek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Seek"><span id="dur">0:00</span></div>
+  <div class="ctl">
+    <button class="skip" id="prev" aria-label="Previous song"><svg viewBox="0 0 24 24"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
+    <button id="play" aria-label="Play or pause"><svg viewBox="0 0 24 24"><path id="ico" d="M8 5v14l11-7z"/></svg></button>
+    <button class="skip" id="next" aria-label="Next song"><svg viewBox="0 0 24 24"><path d="M16 5h2v14h-2zM4 5l11 7L4 19z"/></svg></button>
+  </div>
+  <div class="row">
+    <label class="btn" tabindex="0">Add songs<input id="songFile" type="file" accept="audio/*" multiple hidden></label>
+    <label class="btn" tabindex="0">Open .lrc file<input id="lrcFile" type="file" accept=".lrc,.txt" hidden></label>
+    <button class="btn" id="shuf" aria-pressed="false">Shuffle</button>
+    <button class="btn" id="showList">Playlist</button>
+  </div>
+  <div class="row"><input id="q" type="text" placeholder="Song and artist" aria-label="Song and artist"><button class="btn" id="find">Find lyrics</button></div>
+  <div id="status">Add songs or drop MP3s anywhere on the page.</div>
+</footer>
+<aside id="list" aria-label="Playlist"></aside>
+<audio id="audio" crossorigin="anonymous"></audio>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# keep songs and system files out of the repo
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.ogg
+.DS_Store
+Thumbs.db
