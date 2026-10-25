@@ -1,8 +1,10 @@
-# keep songs and system files out of the repo
+# keep songs out of the repo, except the ones in the songs/ folder
 *.mp3
 *.wav
 *.flac
 *.m4a
 *.ogg
+!songs/*.mp3
+!songs/*.m4a
 .DS_Store
 Thumbs.db
