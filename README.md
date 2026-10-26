@@ -2,7 +2,7 @@
 
 A neon music player for the browser. An audio-reactive glowing orb pulses with your music while synced lyrics float over it.
 
-[link to the website](injection-wheat.vercel.app)
+[link to the website](https://injection-wheat.vercel.app)
 
 ## Features
 
